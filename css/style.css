@@ -1,0 +1,196 @@
+*,ul{
+	margin: 0;
+	padding: 0;
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+
+
+/*********************************
+ * top-header Custom CSS
+ * ********************************/
+.topheader{padding: 8px 0px; border-bottom: 1px solid #eeeeee; line-height: 27px;}
+
+.top-icon ul{ list-style: none;}
+.top-icon ul li {display: inline-block; margin-right: 12px;font-family: 'Roboto', sans-serif;font-size: 14; color: #777777; transition: 0.3s; }
+.top-icon ul li:hover{color: #fab700; cursor: pointer; transition: 0.3s;}
+.top-btn{text-align: right;}
+.btn{height: 30px;border: 1px solid #eeeeee;border-radius: 3px;font-size: 12px;font-family: "Roboto", sans-serif;font-weight: 500;padding-left: 19px;padding-right: 36px;color: #777777;background: #f9f9ff;margin-right: 5px;}
+.dropdown-item {display: block;width: 100%;padding: 0.25rem 1rem;clear: both;font-weight: 400;color: #777777;text-align: inherit;text-decoration: none;white-space: nowrap;background-color: transparent;border: 0;}
+.header{width: 100%;background: #ffffff;}
+.navbar {margin: 12px 0px;}
+.nav-btn{background-color:#fab700;font-family: 'Roboto', sans-serif;font-size: 12px;color: #ffffff;line-height: 24px;padding: 3px 19px;border: none;margin-right: 0px 10px;border-radius: 3px;}
+.nav-btn:hover{color: black;background-color: transparent;border: 1px solid #fab700;border-radius: 3px;}
+.btn:hover{background-color: #f9f9ff !important;border: none;color: #777777;}
+.nav-item{margin-right: 28px;color: #222222; font-family: 'Poppins', sans-serif; font-size: 12px; text-transform: uppercase;transition: 0.3px;}
+.nav-link:hover{color:#fab700 !important;transition: 0.3px;}
+.d-flex{font-size: 12px;margin-left: 12px;}
+.d-flex a i{color: black !important;}
+
+/************************
+ banner customer CSS
+ * *********************/
+
+.banner{width: 100%;height: 100vh;background: url(../img/home-banner.png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+.b-flex{display: flex; height: 100vh; align-items: center;justify-content: center;}
+.banner-text{text-align: center;}
+.banner-text h1{font-size: 60px;font-family: "Oswald", sans-serif;font-weight: normal;margin-bottom: 20px;color: #fff; margin-left: 48px;}
+.banner-text h1 span{background: #fab700;border-radius: 4px;line-height: 60px;color: #222222;padding-left: 4px;padding-right: 4px;padding-bottom: 5px;padding-top: 2px;display: inline-block;}
+.banner-text p{font-size: 14px;line-height: 24px;font-family: "Roboto", sans-serif;font-weight: normal;max-width: 500px;margin: auto;color: #fff;}
+.banner-btn{ transition: 0.3s;padding: 0px 44px;line-height: 50px;background: #222222;color: #fab700;display: inline-block;border-radius: 5px;font-size: 13px;font-family: "Roboto", sans-serif;font-weight: 500;border: none;margin-top: 62px;}
+.banner-btn:hover{background:#fab700 ;color: #222222; transition: 0.3s;}
+
+/************************
+ Service customer CSS
+ * *********************/
+
+.services{width: 100%;padding: 60px 0px;}
+.service-text{text-align: center;}
+.service-text h3, .galley-text h3, .m-text h3, .f-text h3{font-family: "Oswald", sans-serif;font-size: 36px;color: #222222;margin-bottom: 12px;}
+.service-text p, .galley-text p, .m-text p, .f-text p{font-size: 14px;font-family: "Roboto", sans-serif;font-weight: normal;line-height: 24px;color: #777777;margin-bottom: 0px;}
+.service-iteams{margin-top: 80px; text-align: center;padding: 45px 55px;margin-bottom: 30px;}
+.service-iteams:hover{ border-radius: 10px;box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 10%);}
+.service-iteams img{margin: 32px 0px;}
+.service-iteams h4{font-size: 20px;font-family: "Oswald", sans-serif;color: #222222;margin-bottom: 18px;}
+.service-iteams p{font-size: 14px;font-family: "Roboto", sans-serif;line-height: 24px; color: #777777;}
+
+/************************
+ Gallery customer CSS
+ * *********************/
+
+.gallery{width: 100%; padding: 60px 0px;}
+.galley-text{text-align: center;}
+.gallery-iteams{margin-top: 60px;display: grid;grid-template-columns: auto auto auto; }
+.g-iteam img{width: 100%;height: 100%;}
+
+.hover-text h4{color: #222222;font-size: 20px;font-family: "Oswald", sans-serif;margin: 14px 0px; text-align: center;}
+.hover-text p{max-width: 470px;margin:0px 32px;font-size: 14px;line-height: 24px;font-family: "Roboto", sans-serif;color: #222222;}
+.g-iteam{position: relative; }
+.g-iteam::before{content: "";position: absolute;background: rgba(250, 183, 0, 0.85);top: 0;/*right: 0;*/bottom: 0;left: 0; opacity: 0;transition: 0.5s;width: 0;}
+.hover-text{position: absolute; top: 24%;left: 6%; opacity: 0;transition: 0.3s;}
+.g-iteam:hover .hover-text,.g-iteam:hover::before{opacity: 1;transition: 0.5s; width: 100%;}
+
+/************************
+ Member's customer CSS
+ * *********************/
+
+.members{width: 100%;padding: 60px 0px;}
+.mg-iteams{text-align: center;}
+.m-text{text-align: center;}
+
+.m-gallery{position: relative; margin: 21px;}
+.m-gallery::before{content: "";position: absolute;background: rgba(250, 183, 0, 0.85);top: 0;
+right: 0;bottom: 0;left: 0;opacity: 0;transition: 0.3s;}
+
+.m-gallery:hover::before{opacity: 0.7; transition: 0.3s;}
+.hover-icon ul li{list-style: none; display: inline-block; }
+.hover-icon ul li a i{margin-left: 14px; color: #222;}
+.hover-icon{position: absolute;left: 0px;width: 100%;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);text-align: center;opacity: 0;-webkit-transition: all 300ms linear 0s;-o-transition: all 300ms linear 0s;transition: all 300ms linear 0s;}
+.m-gallery:hover .hover-icon{opacity: 1; transition: all 300ms linear 0s;}
+.m-title{}
+.m-title h4, .f-iteam1 h4{font-family: "Oswald", sans-serif;font-size: 18px;color: #222222;}
+.m-title p, .f-iteam1 p{font-family: "Oswald", sans-serif;font-size: 14px;color: #777777;}
+
+/************************
+ Count Section customer CSS
+ * *********************/
+.count-projects{width: 100%;padding: 115px 0px;background-color: #fab700;}
+.count-p1 h4{font-size: 48px;font-family: "Oswald", sans-serif;font-weight: 500;color: #222222;}
+.count-p1 p{margin-bottom: 0px;color: #222222;font-family: "Roboto", sans-serif;font-size: 14px;}
+.counter-iteams{display: grid; grid-template-columns: auto auto auto auto auto; text-align: center;}
+
+/************************
+ Features Section customer CSS
+ * *********************/
+
+.features{width: 100%;padding: 120px 0px;}
+.f-text{text-align: center;}
+.f-iteam1{border: 1px solid #eee;padding: 40px 80px;margin: 30px;border-radius: 3px;display: inline-block;}
+.f-iteam1 h4 i{font-size: 24px;
+    padding-right: 15px;
+    position: relative;
+    }
+.feature-iteams{display: grid; grid-template-columns: auto auto auto; margin-top: 60px;}
+
+.f-iteam1:hover{box-shadow: 0px 10px 30px 0px rgb(157 157 157 / 20%);
+    border-color: #fff;}
+
+.f-iteam1:hover h4{color: #fab700;}
+
+/************************
+ Testimunial Section customer CSS
+ * *********************/
+
+
+.testimunial{width: 100%;padding: 115px 0px; background-color: #f9f9ff;margin: 0 auto;}
+.test-iteams{border: 1px solid #eee;padding: 40px;border-radius: 3px; margin: 0px 24px;}
+
+
+.tt-1{color: #777;font-family: "Roboto", sans-serif;font-size: 14px;}
+
+.test-text h4{color: #222222;font-family: "Oswald", sans-serif;font-weight: 500;font-size: 20px;-webkit-transition: all 300ms linear 0s;-o-transition: all 300ms linear 0s;transition: all 300ms linear 0s;}
+
+.tt-2{font-size: 14px;color: #777777;font-weight: normal;font-family: "Roboto", sans-serif;}
+
+.test-iteams:hover{box-shadow: 0px 10px 30px 0px rgb(157 157 157 / 20%);background: #fff; }
+
+.test-iteams:hover h4{color: #fab700;}
+
+.owl-nav, .owl-dots{display: none;}
+
+/************************
+ Client Logo Section customer CSS
+ * *********************/
+
+.client-logo{width: 100%; padding: 80px 0px;}
+
+.iteam{display: inline-block; width: auto; /*margin-left: 60px;*/}
+
+.iteam img{opacity: 0.5;transition: 0.3s;}
+.iteam img:hover{opacity: 1;transition: 0.3s;}
+
+
+/************************
+Footer Section customer CSS
+ * *********************/
+
+.footer{width: 100%;padding: 115px 0px; background-color: #222222;}
+.about h4, .contact h4, .news h4{font-size: 20px;line-height: 24px;font-weight: 500;font-family: "Oswald", sans-serif;color: #fff;margin-bottom: 28px;}
+.about p, .contact p, .news p, .f-left p{font-family: "Roboto", sans-serif;font-size: 14px;color: #777777; margin-right: 60px;}
+.contact a{display: block;color: #fab700;font-size: 24px;font-family: "Roboto", sans-serif;font-weight: 500; margin-bottom: 10px;}
+
+.mail-box input{width: 95%;
+    border: 1px solid #333333;
+    font-size: 13px;
+    line-height: 40px;
+    padding-right: 40px;
+    height: 40px;
+    color: #999999;
+    border-radius: 20px;
+
+    background: #fff;
+    padding-left: 20px;margin-top: 18px;}
+.mail-box input:focus{outline: none;}
+.mail-box{position: relative;}
+
+
+
+
+.f-btn{width: 36px; height: 36px;background:#fab700 ;text-align: center;line-height: 36px;border-radius: 100%;font-size: 18px;font-weight: 300;border: none;
+ position: absolute; right: 27px;top: 20px;}
+.copyright-nav{margin-top: 80px;line-height: 28px;}
+.f-left i{margin: 4px;}
+.f-left a{color:#fab700 ;}
+
+.f-icon ul{ list-style: none; }
+.f-icon ul li a i{color: white; width: 28px; height: 28px ;background:rgb(17, 17, 17);margin-right: 12px;text-align: center;line-height: 28px;  transition: 0.4s;}
+.f-icon ul li a i:hover{color: rgb(17, 17, 17); background: #fab700; transition: 0.4s;}
+
+
+
+
